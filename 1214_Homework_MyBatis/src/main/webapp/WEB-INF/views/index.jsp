@@ -9,9 +9,7 @@
 </head>
 <body>
 	<a href="${pageContext.request.contextPath}/index.htm">메인화면머지</a><br>
-	<a href="${pageContext.request.contextPath}/emp/emp.htm">전체조회머지</a><br>
-	<a href="${pageContext.request.contextPath}/dragdrop.htm">드래그앤 드롭</a><br>
-	<a href="${pageContext.request.contextPath}/emp/emp.htm">전체조회리베이스</a><br>
+	<a href="${pageContext.request.contextPath}/emp/emp.htm">전체조회리베이스머지</a><br>
 	<a href="${pageContext.request.contextPath}/dragdrop.htm">드래그앤 드롭리베이스</a><br>
 </body>
 </html>
