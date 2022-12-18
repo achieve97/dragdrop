@@ -22,6 +22,14 @@ border-radius: 5px;
 cursor: pointer;
 }
 
+.list-group-item1 {
+background: #fff;
+margin: 20px;
+padding: 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
 .column2{
 flex-basis: 5%;
 background: #ddd;
