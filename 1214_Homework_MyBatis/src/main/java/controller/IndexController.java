@@ -11,4 +11,10 @@ public class IndexController {
 		return "index";
 		//return "/WEB-INF/views/index.jsp";
 	}
+	
+	@RequestMapping("/dragdrop.htm")
+	public String dragdrop() {
+		
+		return "dragdrop";
+	}
 }

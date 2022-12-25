@@ -7,9 +7,4 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class DragDropController {
 
 	
-	@RequestMapping("/dragdrop.htm")
-	public String dragdrop() {
-		
-		return "dragdrop";
-	}
 }

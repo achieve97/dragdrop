@@ -65,15 +65,16 @@
 									+ '  <button id="todoedit">수정</button>'
 									+ '  <button id="tododelete">삭제</button><div>';
 									
-						
+						$(this).attr("#todo").val().empty();
 						});
 
 		// 등록된 todo 삭제 버튼 클릭
 		$(document).on("click", "#tododelete", function tododelete() {
 
+			
 			const tododelete = $('#tododelete');
 
-			tododelete.parent().remove(); // 삭제 버튼의 부모요소 삭제
+			$(this).parent().remove(); // 삭제 버튼의 부모요소 삭제
 
 		});
 
@@ -81,7 +82,7 @@
 		$(document).on("click", "#todoedit", function todoedit() {
 
 			const todoedit = $('#todoedit');
-			todoedit.parent().empty().append('<input class="list-group-item" type="text" id="todo1" name="todo"><button id="todoeditok">수정 완료</button>');
+			$(this).parent().empty().append('<input class="list-group-item" type="text" id="todo1" name="todo"><button id="todoeditok">수정 완료</button>');
 			
 		});
 		
